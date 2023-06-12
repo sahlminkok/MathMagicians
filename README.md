@@ -43,7 +43,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -111,14 +110,6 @@ After you're finished please remove all the comments and instructions!
 - **Fetch and send data to an API**
 - **Save and retrieve Likes, Comments, and Reservations**
 - **Testing Using Jest**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](commingSoon.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
