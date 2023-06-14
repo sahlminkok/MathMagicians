@@ -1,0 +1,41 @@
+.grayColor {
+  background-color: #e2e2e2;
+}
+
+.darkGray {
+  background-color: #999;
+}
+
+.orangeColor {
+  background-color: darkorange;
+}
+
+.calculator {
+  width: calc(203px * 4);
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(6, 75px);
+  grid-gap: 3px;
+}
+
+.operations .result {
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  justify-content: flex-end;
+  padding-right: 0.7em;
+  font-size: 1.7em;
+}
+
+.operations div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twoTimesWidth {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
