@@ -22,6 +22,7 @@
   grid-column-end: span 4;
   justify-content: flex-end;
   padding-right: 0.7em;
+  font-size: 1.7em;
 }
 
 .operations div {

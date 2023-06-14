@@ -3,66 +3,26 @@ import './calculator.css';
 const Calculator = () => (
   <section className="calculator">
     <div className="operations">
-      <div className="result grayColor">
-        <h1>1234567</h1>
-      </div>
-      <div className="grayColor">
-        <p>AC</p>
-      </div>
-      <div className="grayColor">
-        <p>+/-</p>
-      </div>
-      <div className="grayColor">
-        <p>%</p>
-      </div>
-      <div className="orangeColor">
-        <p>/</p>
-      </div>
-      <div className="grayColor">
-        <p>7</p>
-      </div>
-      <div className="grayColor">
-        <p>8</p>
-      </div>
-      <div className="grayColor">
-        <p>9</p>
-      </div>
-      <div className="orangeColor">
-        <p>X</p>
-      </div>
-      <div className="grayColor">
-        <p>4</p>
-      </div>
-      <div className="grayColor">
-        <p>5</p>
-      </div>
-      <div className="grayColor">
-        <p>6</p>
-      </div>
-      <div className="orangeColor">
-        <p>-</p>
-      </div>
-      <div className="grayColor">
-        <p>1</p>
-      </div>
-      <div className="grayColor">
-        <p>2</p>
-      </div>
-      <div className="grayColor">
-        <p>3</p>
-      </div>
-      <div className="orangeColor">
-        <p>+</p>
-      </div>
-      <div className="twoTimesWidth grayColor">
-        <p>0</p>
-      </div>
-      <div className="grayColor">
-        <p>.</p>
-      </div>
-      <div className="orangeColor">
-        <p>=</p>
-      </div>
+      <div className="result grayColor">0</div>
+      <div className="grayColor">AC</div>
+      <div className="grayColor">+/-</div>
+      <div className="grayColor">%</div>
+      <div className="orangeColor">/</div>
+      <div className="grayColor">7</div>
+      <div className="grayColor">8</div>
+      <div className="grayColor">9</div>
+      <div className="orangeColor">X</div>
+      <div className="grayColor">4</div>
+      <div className="grayColor">5</div>
+      <div className="grayColor">6</div>
+      <div className="orangeColor">-</div>
+      <div className="grayColor">1</div>
+      <div className="grayColor">2</div>
+      <div className="grayColor">3</div>
+      <div className="orangeColor">+</div>
+      <div className="twoTimesWidth grayColor">0</div>
+      <div className="grayColor">.</div>
+      <div className="orangeColor">=</div>
     </div>
   </section>
 );
