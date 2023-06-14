@@ -3,7 +3,7 @@ import './calculator.css';
 const Calculator = () => (
   <section className="calculator">
     <div className="operations">
-      <div className="result grayColor">0</div>
+      <div className="result darkGray">0</div>
       <div className="grayColor">AC</div>
       <div className="grayColor">+/-</div>
       <div className="grayColor">%</div>
