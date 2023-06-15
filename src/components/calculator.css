@@ -14,25 +14,29 @@
   width: calc(203px * 4);
 }
 
-.operations {
+.buttons {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(6, 75px);
-  grid-gap: 3px;
+  grid-template-rows: repeat(5, 75px);
+  grid-gap: 2px;
 }
 
-.operations .result {
-  grid-column-start: 1;
-  grid-column-end: span 4;
+.result {
+  display: flex;
   justify-content: flex-end;
-  padding-right: 0.7em;
-  font-size: 1.7em;
+  padding-right: 0.5em;
+  align-items: center;
+  font-size: 1.9em;
+  width: 818px;
+  height: 75px;
 }
 
-.operations div {
+.buttons button {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+  font-size: 1.3rem;
 }
 
 .twoTimesWidth {
