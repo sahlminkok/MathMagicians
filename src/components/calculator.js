@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './calculator.css';
+import '../styles/calculator.css';
 import Buttons from './buttons';
 import Result from './result';
 import calculate from '../logic/calculate';
