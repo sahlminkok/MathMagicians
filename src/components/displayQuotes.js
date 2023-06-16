@@ -15,8 +15,12 @@ const Quotes = () => {
             'x-api-key': 'M+pmkG43hsDKNEUqaeWn8A==MKEcax91ts4AUkCR',
           },
         });
-        const data = await res.json();
-        setQuote(data);
+        if (res.ok) {
+          const data = await res.json();
+          setQuote(data);
+        } else {
+          throw new Error('Error');
+        }
       } catch (error) {
         setHasError(true);
       }
