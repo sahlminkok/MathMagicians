@@ -10,7 +10,7 @@ const Quotes = () => {
     const fetchQuote = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=education', {
+        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=success', {
           headers: {
             'x-api-key': 'M+pmkG43hsDKNEUqaeWn8A==MKEcax91ts4AUkCR',
           },

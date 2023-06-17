@@ -2,12 +2,20 @@
   background-color: #e2e2e2;
 }
 
+.grayColor:hover {
+  background-color: #bdbdbd;
+}
+
 .darkGray {
   background-color: #999;
 }
 
 .orangeColor {
   background-color: darkorange;
+}
+
+.orangeColor:hover {
+  background-color: orange;
 }
 
 .calculator {
@@ -37,6 +45,7 @@
   justify-content: center;
   border: none;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 .twoTimesWidth {
