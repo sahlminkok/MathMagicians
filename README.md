@@ -75,7 +75,7 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="https://react.dev/">React.js</a></li>
   </ul>
 </details>
 
@@ -104,9 +104,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **Fetch and send data to an API**
-- **Save and retrieve Likes, Comments, and Reservations**
-- **Testing Using Jest**
+- **Fetching and Displaying Random Quotes from an API**
+- **Calculator that Allows You to do the Basic Calculation**
+- **Build with React Library**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +130,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/sahlminkok/JavaScript-Capstone-Project.git
+  git clone https://github.com/sahlminkok/MathMagicians.git
 ```
 
 ### Install
@@ -138,7 +138,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd my-project
+  cd MathMagicians
   npm install
 ```
 
@@ -155,7 +155,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npm test
+  npm test [ file name ]
 ```
 
 ### Deployment
