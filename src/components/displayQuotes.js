@@ -10,11 +10,14 @@ const Quotes = () => {
     const fetchQuote = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=success', {
-          headers: {
-            'x-api-key': 'M+pmkG43hsDKNEUqaeWn8A==MKEcax91ts4AUkCR',
+        const res = await fetch(
+          'https://api.api-ninjas.com/v1/quotes?category=success',
+          {
+            headers: {
+              'x-api-key': 'M+pmkG43hsDKNEUqaeWn8A==MKEcax91ts4AUkCR',
+            },
           },
-        });
+        );
         if (res.ok) {
           const data = await res.json();
           setQuote(data);
@@ -36,7 +39,10 @@ const Quotes = () => {
   return (
     <div className="quote">
       {quote.map((item) => (
-        <p key={item.author}>{`"${item.quote}"`}</p>
+        <>
+          <p key={item.author}>{item.quote}</p>
+          <p className="author" key="hello">{item.author}</p>
+        </>
       ))}
     </div>
   );

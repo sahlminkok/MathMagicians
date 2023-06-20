@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 0 110px;
+  padding-top: 100px;
+  gap: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
