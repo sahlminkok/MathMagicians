@@ -17,9 +17,12 @@ const Calculator = () => {
   };
 
   return (
-    <section className="calculator">
-      <Result result={calculatorData.next || calculatorData.total || '0'} />
-      <Buttons onButtonClick={handleButtonClick} />
+    <section className="calc">
+      <h2>Let&apos;s do some Math!</h2>
+      <div className="calculator">
+        <Result result={calculatorData.next || calculatorData.total || '0'} />
+        <Buttons onButtonClick={handleButtonClick} />
+      </div>
     </section>
   );
 };

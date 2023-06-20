@@ -18,6 +18,15 @@
   background-color: orange;
 }
 
+.calc {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 110px;
+  padding-top: 60px;
+  align-items: flex-start;
+}
+
 .calculator {
   width: calc(203px * 4);
 }
