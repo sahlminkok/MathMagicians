@@ -1,29 +1,27 @@
 .grayColor {
-  background-color: #e2e2e2;
+  background-color: #9eacb7;
 }
 
 .grayColor:hover {
-  background-color: #bdbdbd;
+  background-color: #829aac;
 }
 
 .darkGray {
-  background-color: #999;
+  background-color: #2c3039;
 }
 
 .orangeColor {
-  background-color: darkorange;
+  background-color: #fe6c3a;
 }
 
 .orangeColor:hover {
-  background-color: orange;
+  background-color: #ffc6b6;
 }
 
 .calc {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
-  padding-left: 110px;
-  padding-top: 60px;
+  padding: 60px 30px 0 110px;
   align-items: flex-start;
 }
 
