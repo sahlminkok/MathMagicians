@@ -1,5 +1,6 @@
 nav {
   height: 70px;
+  background-color: #2c3039;
 }
 
 nav ul {
@@ -23,11 +24,17 @@ li {
   display: flex;
 }
 
+.links li:hover {
+  background-color: #9eacb7;
+}
+
 a {
   text-decoration: none;
-  color: #212529;
+  color: #fedbd1;
 }
 
 h1 {
   font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
