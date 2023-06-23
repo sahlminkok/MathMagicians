@@ -1,5 +1,5 @@
-import Calculator from "../components/calculator";
+import Calculator from '../components/calculator';
 
 test('initial test setup check', () => {
-    expect("Calculator").toBe("Calculator");
+  expect('Calculator').toBe('Calculator');
 });
