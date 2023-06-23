@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Buttons = ({ onButtonClick }) => (
   <div className="buttons">
-    <button type="button" className="grayColor" onClick={() => onButtonClick('AC')}>AC</button>
+    <button data-testid="button" type="button" className="grayColor" onClick={() => onButtonClick('AC')}>AC</button>
     <button type="button" className="grayColor" onClick={() => onButtonClick('+/-')}>+/-</button>
     <button type="button" className="grayColor" onClick={() => onButtonClick('%')}>%</button>
     <button type="button" className="orangeColor" onClick={() => onButtonClick('÷')}>÷</button>
