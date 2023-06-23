@@ -1,5 +1,5 @@
-import Home from '../components/Home'
+import Home from '../components/Home';
 
 test('initial test setup check', () => {
-    expect("Home").toBe("Home");
+  expect('Home').toBe('Home');
 });

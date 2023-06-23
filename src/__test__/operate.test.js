@@ -1,4 +1,4 @@
-import operate from '../logic/operate'
+import operate from '../logic/operate';
 
 describe('operate function', () => {
     // Test case 1: addition operation
@@ -23,4 +23,3 @@ describe('operate function', () => {
     });
 
 })
-
