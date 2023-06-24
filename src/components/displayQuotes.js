@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../styles/quotes.css';
+import { v4 as uuidv4 } from 'uuid';
 
 const Quotes = () => {
   const [quote, setQuote] = useState([]);
@@ -39,10 +40,10 @@ const Quotes = () => {
   return (
     <div className="quote">
       {quote.map((item) => (
-        <>
-          <p key={item.author}>{item.quote}</p>
-          <p className="author" key="hello">{item.author}</p>
-        </>
+        <div key={uuidv4()}>
+          <p>{item.quote}</p>
+          <p className="author">{item.author}</p>
+        </div>
       ))}
     </div>
   );
