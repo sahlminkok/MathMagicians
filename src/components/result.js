@@ -8,7 +8,11 @@ function Result({ result }) {
 }
 
 Result.propTypes = {
-  result: PropTypes.string.isRequired,
+  result: PropTypes.string,
+};
+
+Result.defaultProps = {
+  result: '',
 };
 
 export default Result;

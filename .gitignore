@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+calculator.test.js
+Home.test.js
+operate.test.js
+result.test.js
